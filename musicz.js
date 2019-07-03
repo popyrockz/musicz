@@ -1,4 +1,4 @@
-<script >var num = 0;
+var num = 0;
 var hiddenPlayer = $('#hidden-player');
 var player = $('#player');
 var title = $('.title');
@@ -160,5 +160,3 @@ hiddenPlayer.on('timeupdate', function() {
 		$('.next').trigger('click');
 	}
 });
-//# sourceURL=pen.js
-</script>
